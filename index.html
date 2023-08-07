@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <a href="#" class="logo">
+            <img src="images/logo2.png" alt="logo">
+        </a>
+        <nav class="navbar ">
+            <a href="index.html" class="active">Home</a>
+            <a href="about.html">About</a>
+            <a href="menu.html">Menu</a>
+            <a href="products.html">Products</a>
+            <a href="review.html">Review</a>
+            <a href="contact.html">Contact</a>
+            <a href="blogs.html">Blogs</a>
+        </nav>
+        <div class="buttons">
+            <button id="search-btn">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+            <button id="cart-btn">
+                <i class="fa-solid fa-cart-shopping"></i>
+            </button>
+            <button id="menu-btn">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+        <div class="search-form ">
+            <input type="text" class="search-input" id="search-box" placeholder="search here.."/>
+            <i class="fas fa-search"></i>
+        </div>
+        
+        <div class="cart-items-container  ">
+            <div class="cart-item">
+                <i class="fas fa-times"></i>
+                <img src="images/chicken.jpg" alt="menu"/>
+                <div class="content">
+                    <h3>cart item 1</h3>
+                    <div class="price">19$</div>
+                </div>
+            </div>
+            <div class="cart-item">
+                <i class="fas fa-times"></i>
+                <img src="images/mush.jpg" alt="menu"/>
+                <div class="content">
+                    <h3>cart item 2</h3>
+                    <div class="price">14$</div>
+                </div>
+            </div>
+            <div class="cart-item">
+                <i class="fas fa-times"></i>
+                <img src="images/vegan2.jpg" alt="menu"/>
+                <div class="content">
+                    <h3>cart item 3</h3>
+                    <div class="price">28$</div>
+                </div>
+            </div>
+            <a href="#" class="btn">Checkout Now</a>
+        </div>
+    </header>
+    <section class="home" id="home">
+        <div class="content">
+            <h3>Welcome To The New Address Of Taste </h3>
+        <P>Are you ready to eat the most unusual pizzas and the best hamburgers in the city?</P>
+        <a href="#" class="btn">Order Now</a>
+        </div>
+        </section>
+        <section class="menu" id="menu">
+            <h1 class="heading">MENU</h1>
+            <div class="box-container">
+                <div class="box">
+                    <div class="box-head">
+                        <img src="images/chicken.jpg" alt="menu" />
+                        <span class="menu-category">Pizza</span>
+                        <h3>Chicken Pizza</h3>
+                        <div class="price">12$</div>
+                   </div>
+                   <div class="box-bottom">
+                    <a href="#" class="btn">add to cart</a>
+                   </div>
+                   </div>
+                   <div class="box">
+                    <div class="box-head">
+                        <img src="images/mush.jpg" alt="menu" />
+                        <span class="menu-category">Pizza</span>
+                        <h3>Mushroom Pizza</h3>
+                        <div class="price">14$</div>
+                   </div>
+                   <div class="box-bottom">
+                    <a href="#" class="btn">add to cart</a>
+                   </div>
+                </div>
+                   <div class="box">
+                    <div class="box-head">
+                        <img src="images/chilli.jpg" alt="menu" />
+                        <span class="menu-category">Burger</span>
+                        <h3>Chilli Pepper Hamburger</h3>
+                        <div class="price">18$</div>
+                   </div>
+                   <div class="box-bottom">
+                    <a href="#" class="btn">add to cart</a>
+                   </div>
+                </div>
+                   <div class="box">
+                    <div class="box-head">
+                        <img src="images/hambtavuk.jpg" alt="menu" />
+                        <span class="menu-category">Burger</span>
+                        <h3>Chicken Hamburger</h3>
+                        <div class="price">19$</div>
+                   </div>
+                   <div class="box-bottom">
+                    <a href="#" class="btn">add to cart</a>
+                   </div>
+                   
+                </div>
+            </div>
+        </section>
+        <section class="products" id="products">
+            <h1 class="heading">PRODUCTS</h1>
+            <div class="box-container">
+                <div class="box">
+                    <div class="box-head">
+                        <span class="title">MINI BURGERS</span>
+                        <a href="#" class="name">3PCS BURGER</a>
+                    </div>
+                    <div class="image">
+                        <img src="images/miniburger.jpg" alt="">
+                    </div>
+                    <div class="box-bottom">
+                        <div class="info">
+                            <b class="price">$21</b>
+                            <span class="amount">110gr/ 300cal</span>
+                        </div>
+                        <div class="product-btn">
+                            <a href="#">
+                                <i class="fas fa-plus"></i>
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="box-head">
+                        <span class="title">BURGERS</span>
+                        <a href="#" class="name">VEGAN PIZZA</a>
+                    </div>
+                    <div class="image">
+                        <img src="images/vegan3.jpg" alt="">
+                    </div>
+                    <div class="box-bottom">
+                        <div class="info">
+                            <b class="price">$28</b>
+                            <span class="amount">90gr/ 285cal</span>
+                        </div>
+                        <div class="product-btn">
+                            <a href="#">
+                                <i class="fas fa-plus"></i>
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="box-head">
+                        <span class="title">FRYING</span>
+                        <a href="#" class="name">CHIPS</a>
+                    </div>
+                    <div class="image">
+                        <img src="images/patateskızartması.jpg" alt="">
+                    </div>
+                    <div class="box-bottom">
+                        <div class="info">
+                            <b class="price">$9</b>
+                            <span class="amount">100gr/ 400cal</span>
+                        </div>
+                        <div class="product-btn">
+                            <a href="#">
+                                <i class="fas fa-plus"></i>
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="about" id="about">
+            <h1 class="heading">ABOUT US</h1>
+            <div class="row">
+                <div class="image">
+                    <img src="images/mekan.jpg" alt="about"/>
+                </div>
+                <div class="content">
+                    <p>"Everything started when I realized how fun and personalized cooking is. The fact that the same dish comes out with different flavors from different hands took me on a long journey in the mysterious world of flavors."</p>
+
+                        <p>Chilli Pepper is the result of many flavorful information such as tricks, cooking techniques, the use of spices, the desire to create new flavors and so on. came into the world. The new flavors we discovered made our guests familiar faces, so now we all enjoy being members of a large family together.</p>
+                        
+                        <p>Even hearing the words "than usual" from the mouth of our guests, who can't eat anything that their mother didn't make, gives us the determination to work harder. We are constantly trying… We are striving to find the best, the newest, the most delicious.</p>
+                        
+                        <p>In return, we receive a smile on the faces of our guests who finish their meal. We also consider suggestions from our guests. We first share our new tastes with our guests and get their opinions. Because this is the home of our guests as well as ours… Chilli Pepper is a place they prefer not only to eat, but also to enjoy eating.!</p>
+                        
+                        <p>If you also like to eat, Chilli Pepper.' We are waiting for you.</p>
+                        <a href="#" class="btn">Learn More</a>
+                </div>
+            </div>
+
+        </section>
+        <section class="review" id="review">
+            <h1 class="heading">CUSTOMER'S REVIEW</h1>
+            <div class="box-container">
+                <div class="box">
+                    <img src="images/düşünce.jpg" alt="dusunce" class="logod"/>
+                
+                <p>
+                    The pizza was pretty good. Their menu for vegans was very thoughtful. The place is pretty nice too.
+                </p>
+                <img src="images/kadın1.jpg" alt="avatar" class="user"/>
+                <h3>Bade Demiröz</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                    </div>
+                    <div class="box">
+                        <img src="images/düşünce.jpg" alt="dusunce" class="logod"/>
+                        
+                        <p>
+                            Their hamburgers were good. Our pizza order came a little late. The place is nice and the staff were interested.
+                        </p>
+                        <img src="images/kadın2.jpg" alt="avatar" class="user"/>
+                        <h3>Naz Akyol</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            
+                        </div>
+                            </div>
+                            <div class="box">
+                                <img src="images/düşünce.jpg" alt="dusunce" class="logod"/>
+                                
+                                <p>
+                                    Definitely a place to go. It is a place suitable for people of all ages. The food is very delicious. mushroom pizza is the best.
+                                </p>
+                                <img src="images/erkek.jpg" alt="avatar" class="user"/>
+                                <h3>Mehmet Demiröz</h3>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                    </div>
+                </div>
+        </section>
+        <section class="contact" id="contact">
+            <h1 class="heading">CONTACT US</h1>
+            <div class="row">
+            
+                <iframe class="map" 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d48192.25415825653!2d29
+                .063052999999996!3d40.981133!2m3!1f0!2f0!3f0!3m
+                2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cac790b17b
+                a89d%3A0xd2d24ea0437a7ee2!2zS2FkxLFrw7Z5L8Swc3RhbmJ1bA!5e0!3m2!1str!2str!4v1691052551617!5m2!1str!2str" 
+                 
+                 loading="lazy"
+                   referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+                   <form>
+                    <h3>Contact Form</h3>
+                    <div class="inputBox">
+                        <i class="fas fa-user"></i>
+                        <input type="text" placeholder="name"/>
+                    </div>
+                    <div class="inputBox">
+                        <i class="fas fa-envelope"></i>
+                        <input type="email" placeholder="email"/>
+                    </div>
+                    <div class="inputBox">
+                        <i class="fas fa-phone"> </i>
+                        <input type="number" placeholder="name"/>
+                    </div>
+                    <input type="submit" class="btn" value="Send">
+                   </form>
+            </div>
+        
+        </section>
+        <section class="blogs" id="blogs">
+            <h1 class="heading">BLOG</h1>
+            <div class="box-container">
+                <div class="box">
+                    <div class="image">
+                        <img src="images/hambyapımı.jpg" alt="blog">
+                    </div>
+                    <div class="content">
+                        <a href="#" class="title">The secret to a good hamburger</a>
+                        <span>By Gordon Ramsay 10st May,2021</span>
+                        <p>
+                            The secret of a successful hamburger is above all the quality of the meat used. 
+                            It is possible to make delicious meatballs by adding mustard, molasses, breadcrumbs, vinegar, salt and pepper to meat.
+                        </p>
+                        <a href="#" class="btn">Read More</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="image">
+                        <img src="images/aşçı.jpg" alt="blog">
+                    </div>
+                    <div class="content">
+                        <a href="#" class="title">The importance of the cook</a>
+                        <span>Martin Berasategui 11th April, 2022</span>
+                        <p>
+                            "We, the Chefs, are the Indispensable Lead Actors of the Art of Food and Drink"
+ 
+                             Cookery and Cooks have been loved and appreciated since ancient times. Cooking, which started with the discovery of fire, 
+                             started with the cooking of game animals, especially by turning, in the first ages, who were herbivores.
+                        </p>
+                        <a href="#" class="btn">Read More</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="image">
+                        <img src="images/pizzayapmı.jpg" alt="blog">
+                    </div>
+                    <div class="content">
+                        <a href="#" class="title">What does vegan mean, why vegan?</a>
+                        <span>By Heston Marc Blumenthal 
+
+                        </span> 
+                        
+                        <span>16th March,2023</span>
+                        <p>
+                            In its simplest definition, it means not consuming animal foods.
+                             According to this lifestyle and philosophy, the use of products produced with animal fats, 
+                            together with meat and milk from animals, is not considered correct.
+                        </p>
+                        <a href="#" class="btn">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="footer">
+            <div class="search">
+                <input type="text" class="search-input" placeholder="Search" />
+                <button class="btn btn-primary">search</button>
+            </div>
+            <div class="share">
+                <a href="#" class="fab fa-facebook"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+
+            </div>
+            <div class="links">
+                <a href="#" class="active">Home</a>
+            <a href="#">About</a>
+            <a href="#">Menu</a>
+            <a href="#">Products</a>
+            <a href="#">Review</a>
+            <a href="#">Contact</a>
+            <a href="#">Blogs</a>
+            </div>
+            <div class="credit">
+                <p>
+                    © 2023 Copyright - Ece Demirhan
+                   </p>
+            </div>
+        </section>
+        <script src="js/script.js"></script>
+</body>
+</html>

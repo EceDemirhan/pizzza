@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blogs</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <a href="#" class="logo">
+            <img src="images/logo2.png" alt="logo">
+        </a>
+        <nav class="navbar ">
+            <a href="index.html" >Home</a>
+            <a href="about.html">About</a>
+            <a href="menu.html">Menu</a>
+            <a href="products.html">Products</a>
+            <a href="review.html">Review</a>
+            <a href="contact.html">Contact</a>
+            <a href="blogs.html" class="active">Blogs</a>
+        </nav>
+        <div class="buttons">
+            <button id="search-btn">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+            <button id="cart-btn">
+                <i class="fa-solid fa-cart-shopping"></i>
+            </button>
+            <button id="menu-btn">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+        <div class="search-form ">
+            <input type="text" class="search-input" id="search-box" placeholder="search here.."/>
+            <i class="fas fa-search"></i>
+        </div>
+        
+        <div class="cart-items-container  ">
+            <div class="cart-item">
+                <i class="fas fa-times"></i>
+                <img src="images/chicken.jpg" alt="menu"/>
+                <div class="content">
+                    <h3>cart item 1</h3>
+                    <div class="price">19$</div>
+                </div>
+            </div>
+            <div class="cart-item">
+                <i class="fas fa-times"></i>
+                <img src="images/mush.jpg" alt="menu"/>
+                <div class="content">
+                    <h3>cart item 2</h3>
+                    <div class="price">14$</div>
+                </div>
+            </div>
+            <div class="cart-item">
+                <i class="fas fa-times"></i>
+                <img src="images/vegan2.jpg" alt="menu"/>
+                <div class="content">
+                    <h3>cart item 3</h3>
+                    <div class="price">28$</div>
+                </div>
+            </div>
+            <a href="#" class="btn">Checkout Now</a>
+        </div>
+    </header>
+    <section class="blogs" id="blogs">
+        <h1 class="heading">BLOG</h1>
+        <div class="box-container">
+            <div class="box">
+                <div class="image">
+                    <img src="images/hambyapımı.jpg" alt="blog">
+                </div>
+                <div class="content">
+                    <a href="#" class="title">The secret to a good hamburger</a>
+                    <span>By Gordon Ramsay 10st May,2021</span>
+                    <p>
+                        The secret of a successful hamburger is above all the quality of the meat used. 
+                        It is possible to make delicious meatballs by adding mustard, molasses, breadcrumbs, vinegar, salt and pepper to meat.
+                    </p>
+                    <a href="#" class="btn">Read More</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="images/aşçı.jpg" alt="blog">
+                </div>
+                <div class="content">
+                    <a href="#" class="title">The importance of the cook</a>
+                    <span>Martin Berasategui 11th April, 2022</span>
+                    <p>
+                        "We, the Chefs, are the Indispensable Lead Actors of the Art of Food and Drink"
+
+                         Cookery and Cooks have been loved and appreciated since ancient times. Cooking, which started with the discovery of fire, 
+                         started with the cooking of game animals, especially by turning, in the first ages, who were herbivores.
+                    </p>
+                    <a href="#" class="btn">Read More</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="images/pizzayapmı.jpg" alt="blog">
+                </div>
+                <div class="content">
+                    <a href="#" class="title">What does vegan mean, why vegan?</a>
+                    <span>By Heston Marc Blumenthal 
+
+                    </span> 
+                    
+                    <span>16th March,2023</span>
+                    <p>
+                        In its simplest definition, it means not consuming animal foods.
+                         According to this lifestyle and philosophy, the use of products produced with animal fats, 
+                        together with meat and milk from animals, is not considered correct.
+                    </p>
+                    <a href="#" class="btn">Read More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+       
+        <section class="footer">
+            <div class="search">
+                <input type="text" class="search-input" placeholder="Search" />
+                <button class="btn btn-primary">search</button>
+            </div>
+            <div class="share">
+                <a href="#" class="fab fa-facebook"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+
+            </div>
+            <div class="links">
+                <a href="#" class="active">Home</a>
+            <a href="#">About</a>
+            <a href="#">Menu</a>
+            <a href="#">Products</a>
+            <a href="#">Review</a>
+            <a href="#">Contact</a>
+            <a href="#">Blogs</a>
+            </div>
+            <div class="credit">
+                <p>
+                    © 2023 Copyright - Ece Demirhan
+                   </p>
+            </div>
+        </section>
+        <script src="js/script.js"></script>
+</body>
+</html>

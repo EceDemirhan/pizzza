@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <a href="#" class="logo">
+            <img src="images/logo2.png" alt="logo">
+        </a>
+        <nav class="navbar ">
+            <a href="index.html" >Home</a>
+            <a href="about.html">About</a>
+            <a href="menu.html">Menu</a>
+            <a href="products.html" class="active">Products</a>
+            <a href="review.html">Review</a>
+            <a href="contact.html">Contact</a>
+            <a href="blogs.html">Blogs</a>
+        </nav>
+        <div class="buttons">
+            <button id="search-btn">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+            <button id="cart-btn">
+                <i class="fa-solid fa-cart-shopping"></i>
+            </button>
+            <button id="menu-btn">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+        <div class="search-form ">
+            <input type="text" class="search-input" id="search-box" placeholder="search here.."/>
+            <i class="fas fa-search"></i>
+        </div>
+        
+        <div class="cart-items-container  ">
+            <div class="cart-item">
+                <i class="fas fa-times"></i>
+                <img src="images/chicken.jpg" alt="menu"/>
+                <div class="content">
+                    <h3>cart item 1</h3>
+                    <div class="price">19$</div>
+                </div>
+            </div>
+            <div class="cart-item">
+                <i class="fas fa-times"></i>
+                <img src="images/mush.jpg" alt="menu"/>
+                <div class="content">
+                    <h3>cart item 2</h3>
+                    <div class="price">14$</div>
+                </div>
+            </div>
+            <div class="cart-item">
+                <i class="fas fa-times"></i>
+                <img src="images/vegan2.jpg" alt="menu"/>
+                <div class="content">
+                    <h3>cart item 3</h3>
+                    <div class="price">28$</div>
+                </div>
+            </div>
+            <a href="#" class="btn">Checkout Now</a>
+        </div>
+    </header>
+    
+    <section class="products" id="products">
+        <h1 class="heading">PRODUCTS</h1>
+        <div class="box-container">
+            <div class="box">
+                <div class="box-head">
+                    <span class="title">MINI BURGERS</span>
+                    <a href="#" class="name">3PCS BURGER</a>
+                </div>
+                <div class="image">
+                    <img src="images/miniburger.jpg" alt="">
+                </div>
+                <div class="box-bottom">
+                    <div class="info">
+                        <b class="price">$21</b>
+                        <span class="amount">110gr/ 300cal</span>
+                    </div>
+                    <div class="product-btn">
+                        <a href="#">
+                            <i class="fas fa-plus"></i>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-head">
+                    <span class="title">BURGERS</span>
+                    <a href="#" class="name">VEGAN PIZZA</a>
+                </div>
+                <div class="image">
+                    <img src="images/vegan3.jpg" alt="">
+                </div>
+                <div class="box-bottom">
+                    <div class="info">
+                        <b class="price">$28</b>
+                        <span class="amount">90gr/ 285cal</span>
+                    </div>
+                    <div class="product-btn">
+                        <a href="#">
+                            <i class="fas fa-plus"></i>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-head">
+                    <span class="title">FRYING</span>
+                    <a href="#" class="name">CHIPS</a>
+                </div>
+                <div class="image">
+                    <img src="images/patateskızartması.jpg" alt="">
+                </div>
+                <div class="box-bottom">
+                    <div class="info">
+                        <b class="price">$9</b>
+                        <span class="amount">100gr/ 400cal</span>
+                    </div>
+                    <div class="product-btn">
+                        <a href="#">
+                            <i class="fas fa-plus"></i>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+       
+        <section class="footer">
+            <div class="search">
+                <input type="text" class="search-input" placeholder="Search" />
+                <button class="btn btn-primary">search</button>
+            </div>
+            <div class="share">
+                <a href="#" class="fab fa-facebook"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+
+            </div>
+            <div class="links">
+                <a href="#" class="active">Home</a>
+            <a href="#">About</a>
+            <a href="#">Menu</a>
+            <a href="#">Products</a>
+            <a href="#">Review</a>
+            <a href="#">Contact</a>
+            <a href="#">Blogs</a>
+            </div>
+            <div class="credit">
+                <p>
+                    © 2023 Copyright - Ece Demirhan
+                   </p>
+            </div>
+        </section>
+        <script src="js/script.js"></script>
+</body>
+</html>
